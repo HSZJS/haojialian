@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link href="../libs/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/main.css" rel="stylesheet">
+    <script src="../libs/jquery/dist/jquery.min.js"></script>
+    <script src="../libs/bootstrap/js/bootstrap.min.js"></script>
+
+  </head>
+  <body class="page_require">
+  <div id="header">
+    <h4 class="text-center">填写需求</h4>
+
+  </div>
+  <div class="container-fuild">
+
+    <ul class="list-group row-fuild form-inline">
+      <li class="list-group-item clearfix fonttitle">
+        <i class="icon icon-hour"></i>钟点工
+        <span class="glyphicon glyphicon-menu-right pull-right"></span>
+      </li>
+      <li class="list-group-item last clearfix">
+      <span class="form-control-static"><i class="icon icon-inhome-gray"></i>服务类型 <small>最多选三个</small></span>
+      </li>
+      <li class="list-group-item clearfix">
+        <div class="form-group">
+          <button type="button" class="btn active">保洁</button>
+          <button type="button" class="btn active">做饭</button>
+          <button type="button" class="btn active">看宝宝</button>
+          <button type="button" class="btn ">照顾老人</button>
+        </div>
+        <div class="text-warning"><i class="icon icon-warning"></i>2小时起做，25元一小时</div>
+      </li>
+    </ul>
+    <div class="panel panel-default" style="margin-bottom:0;border-bottom: 0;">
+      <div class="panel-heading">服务时长及地址</div>
+      <ul class="list-group row-fuild form-inline">
+        <li class="list-group-item">
+          <span class="form-control-static"><i class="icon icon-address"></i>服务时间</span>
+          <select class="form-control pull-right"><option>18：30点</option></select>
+        </li>
+        <li class="list-group-item">
+          <span class="form-control-static"><i class="icon icon-address"></i>服务时长</span>
+          <select class="form-control pull-right"><option>2小时</option></select>
+        </li>
+        <li class="list-group-item">
+          <span class="form-control-static"><i class="icon icon-address"></i>地址</span>
+          <select class="form-control pull-right"><option>浦东新区</option></select>
+        </li>
+        <li class="list-group-item clearfix">
+          <input class="form-control pull-right" style="width:100%;text-align: right;" placeholder="填写你所在的街道以及门牌号">
+        </li>
+      </ul>
+    </div>
+
+    <div class="panel panel-default">
+      <div class="panel-heading">联系方式</div>
+      <ul class="list-group row-fuild form-inline">
+        <li class="list-group-item">
+          <span class="form-control-static"><i class="icon icon-sex"></i>称呼</span>
+          <div class="pull-right" style="padding-left:10px;">
+            <button type="button" class="btn active">男士</button>
+            <button type="button" class="btn">女士</button>
+          </div>
+
+        </li>
+        <li class="list-group-item">
+          <span class="form-control-static"><i class="icon icon-tel"></i>手机号码</span>
+          <input class="form-control pull-right" placeholder="请填写">
+        </li>
+        <li class="list-group-item row-fluid clearfix">
+          <div class="col-xs-9" style="padding-left:0;">
+            <i class="icon icon-yz"></i>
+            <input class="form-control text-left" placeholder="请输入验证码" style="padding-left: 0;" >
+          </div>
+          <div class="col-xs-3 form-control-static">img</div>
+        </li>
+        <li class="list-group-item">
+          <span><i class="icon icon-telmsg"></i>
+            <input class="form-control text-left" placeholder="请输入短信验证码" style="padding-left: 0;" >
+          </span>
+          <button type="button" class="btn pull-right">获取验证码</button>
+        </li>
+        <li class="list-group-item">
+          <span class="form-control-static"><i class="icon icon-money-gray"></i>心理价位</span>
+          <input type="text" class="form-control pull-right" placeholder="元／每月">
+        </li>
+      </ul>
+
+      
+    </div>
+    <button type="button" class="btn btn-block btn-primary btn-lg">提交需求</button>
+  </div>
+
+
+
+
+  </body>
+</html>
